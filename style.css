@@ -94,3 +94,30 @@ canvas {
 .d2 { top: 20px; right: -60px; }
 .d3 { bottom: 60px; left: -60px; }
 .d4 { bottom: -60px; right: 0px; }
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 32px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .marketcap-display {
+    font-size: 16px;
+  }
+
+  .buy-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .anime-doodles {
+    width: 60px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
